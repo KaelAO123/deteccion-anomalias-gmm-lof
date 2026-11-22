@@ -21,7 +21,6 @@ output/models/*.rds
 
 # ---------- Frontend (React + Vite) ----------
 docs/web/node_modules/
-docs/web/dist/
 docs/web/.vite/
 docs/web/.cache/
 docs/web/*.log

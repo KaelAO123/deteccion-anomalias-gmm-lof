@@ -1,0 +1,8 @@
+metrica,valor
+Jaccard,0.0177
+Cohen_kappa,-0.016
+Coincidencia_bruta,0.0017
+n_ambos,22
+n_solo_gmm,610
+n_solo_lof,610
+n_union,1242
