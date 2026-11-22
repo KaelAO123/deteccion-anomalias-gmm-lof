@@ -25,12 +25,6 @@ Sitio web descriptivo del proyecto de detección de anomalías en el gasto no al
     - [Regenerar `fase8_pca_scatter.csv` con muestreo](#regenerar-fase8_pca_scattercsv-con-muestreo)
   - [Secciones de la página](#secciones-de-la-página)
   - [Accesibilidad](#accesibilidad)
-  - [Solución de problemas](#solución-de-problemas)
-    - [El modo oscuro no funciona](#el-modo-oscuro-no-funciona)
-    - [El nav no se ve en modo claro](#el-nav-no-se-ve-en-modo-claro)
-    - [Las fórmulas de KaTeX no renderizan](#las-fórmulas-de-katex-no-renderizan)
-    - [El scatter PCA es lento](#el-scatter-pca-es-lento)
-    - [`ENOSPC: System limit for number of file watchers reached`](#enospc-system-limit-for-number-of-file-watchers-reached)
   - [Licencia](#licencia)
 
 ---
@@ -261,19 +255,18 @@ write_csv(pca_df_export, "output/tables/fase8_pca_scatter.csv")
 
 ## Secciones de la página
 
-
-| Sección         | Contenido                                                                                |
-| ------------------ | ------------------------------------------------------------------------------------------ |
-| **Hero**         | Título, subtítulo, botones de navegación                                              |
-| **Resumen**      | Hallazgo principal: complementariedad GMM vs. LOF                                        |
-| **Dataset**      | 12.726 hogares, 60 variables, 4 horizontes + gráfico de ceros                           |
-| **Metodología** | Pipeline de 4 pasos con iconos SVG                                                       |
-| **Métodos**     | GMM (gaussiana, EM) y LOF (reachability, LRD, LOF) con fórmulas KaTeX                   |
-| **GMM**          | Modelo VEV 13 componentes, BIC, distribución de log-densidad                            |
-| **LOF**          | k = 20, sensibilidad, distribución de LOF                                               |
-| **Comparación** | Matriz de confusión, Jaccard, κ, scatter PCA, efecto `log1p`, heatmap por departamento |
-| **Conclusiones** | 5 hallazgos numerados                                                                    |
-| **Limitaciones** | 5 limitaciones metodológicas                                                            |
+| Sección          | Contenido                                                                              |
+| ---------------- | -------------------------------------------------------------------------------------- |
+| **Hero**         | Título, subtítulo, botones de navegación                                               |
+| **Resumen**      | Hallazgo principal: complementariedad GMM vs. LOF                                      |
+| **Dataset**      | 12.726 hogares, 60 variables, 4 horizontes + gráfico de ceros                          |
+| **Metodología**  | Pipeline de 4 pasos con iconos SVG                                                     |
+| **Métodos**      | GMM (gaussiana, EM) y LOF (reachability, LRD, LOF) con fórmulas KaTeX                  |
+| **GMM**          | Modelo VEV 13 componentes, BIC, distribución de log-densidad                           |
+| **LOF**          | k = 20, sensibilidad, distribución de LOF                                              |
+| **Comparación**  | Matriz de confusión, Jaccard, κ, scatter PCA, efecto `log1p`, heatmap por departamento |
+| **Conclusiones** | 5 hallazgos numerados                                                                  |
+| **Limitaciones** | 5 limitaciones metodológicas                                                           |
 
 ---
 
@@ -284,37 +277,6 @@ write_csv(pca_df_export, "output/tables/fase8_pca_scatter.csv")
 - **Foco visible**: `outline` en todos los elementos interactivos.
 - **Contraste**: colores cumplen WCAG AA en texto principal.
 - **`alt` text**: todas las imágenes tienen descripción.
-
----
-
-## Solución de problemas
-
-### El modo oscuro no funciona
-
-Verifica en este orden:
-
-1. `tailwind.config.js` tiene `darkMode: 'class'`.
-2. `ThemeToggle.tsx` usa `document.documentElement.classList.add('dark')` (no `body`).
-3. `App.tsx` tiene un wrapper con `bg-bg dark:bg-slate-900`.
-4. **Reinicia el servidor** después de tocar `tailwind.config.js` (`Ctrl+C`, `npm run dev`).
-
-### El nav no se ve en modo claro
-
-El nav es transparente sobre el Hero (oscuro). Las letras deben ser blancas cuando `scrolled = false` y grises cuando `scrolled = true`. Verifica que el `Nav.tsx` tenga los condicionales `textBase`, `textHover`, `textActive`.
-
-### Las fórmulas de KaTeX no renderizan
-
-- Verifica que `import 'katex/dist/katex.min.css'` esté en `src/main.tsx`.
-- Verifica que `katex` y `react-katex` estén instalados: `npm install katex react-katex`.
-
-### El scatter PCA es lento
-
-- Verifica que `fase8_pca_scatter.csv` tenga ~2.042 filas (no 12.632).
-- Verifica que `ScatterPca.tsx` tenga `isAnimationActive={false}` y `size` reducido para "Ninguno".
-
-### `ENOSPC: System limit for number of file watchers reached`
-
-Sigue los pasos de la sección [Desarrollo](#desarrollo).
 
 ---
 
