@@ -1,0 +1,35 @@
+depto,categoria,n,pct
+1,Ambos,3,0.33
+1,Solo GMM,54,5.98
+1,Solo LOF,66,7.31
+1,Ninguno,780,86.38
+2,Ambos,10,0.32
+2,Solo GMM,187,6.05
+2,Solo LOF,134,4.34
+2,Ninguno,2759,89.29
+3,Ambos,3,0.14
+3,Solo GMM,135,6.18
+3,Solo LOF,84,3.85
+3,Ninguno,1961,89.83
+4,Ambos,1,0.1
+4,Solo GMM,23,2.35
+4,Solo LOF,77,7.87
+4,Ninguno,878,89.68
+5,Ambos,2,0.2
+5,Solo GMM,39,3.87
+5,Solo LOF,89,8.83
+5,Ninguno,878,87.1
+6,Solo GMM,37,4
+6,Solo LOF,41,4.43
+6,Ninguno,847,91.57
+7,Ambos,2,0.09
+7,Solo GMM,114,4.98
+7,Solo LOF,51,2.23
+7,Ninguno,2120,92.7
+8,Solo GMM,7,1.03
+8,Solo LOF,43,6.3
+8,Ninguno,632,92.67
+9,Ambos,1,0.17
+9,Solo GMM,14,2.44
+9,Solo LOF,25,4.36
+9,Ninguno,534,93.03

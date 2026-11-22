@@ -1,0 +1,211 @@
+estrato,categoria,n,pct
+111,Ambos,1,1.43
+111,Solo GMM,7,10
+111,Solo LOF,3,4.29
+111,Ninguno,59,84.29
+112,Solo GMM,10,7.87
+112,Solo LOF,5,3.94
+112,Ninguno,112,88.19
+113,Solo GMM,16,10
+113,Solo LOF,6,3.75
+113,Ninguno,138,86.25
+114,Ambos,1,0.72
+114,Solo GMM,15,10.79
+114,Solo LOF,3,2.16
+114,Ninguno,120,86.33
+121,Solo LOF,13,19.12
+121,Ninguno,55,80.88
+122,Ambos,1,0.62
+122,Solo GMM,1,0.62
+122,Solo LOF,23,14.2
+122,Ninguno,137,84.57
+123,Solo GMM,4,3.36
+123,Solo LOF,11,9.24
+123,Ninguno,104,87.39
+124,Solo GMM,1,1.72
+124,Solo LOF,2,3.45
+124,Ninguno,55,94.83
+211,Ambos,1,0.34
+211,Solo GMM,8,2.75
+211,Solo LOF,14,4.81
+211,Ninguno,268,92.1
+212,Ambos,1,0.13
+212,Solo GMM,39,4.93
+212,Solo LOF,32,4.05
+212,Ninguno,719,90.9
+213,Ambos,2,0.2
+213,Solo GMM,65,6.42
+213,Solo LOF,31,3.06
+213,Ninguno,914,90.32
+214,Ambos,3,0.52
+214,Solo GMM,72,12.39
+214,Solo LOF,11,1.89
+214,Ninguno,495,85.2
+221,Ambos,1,0.52
+221,Solo GMM,1,0.52
+221,Solo LOF,26,13.47
+221,Ninguno,165,85.49
+222,Solo LOF,12,11.32
+222,Ninguno,94,88.68
+223,Ambos,1,1.45
+223,Solo LOF,6,8.7
+223,Ninguno,62,89.86
+224,Ambos,1,2.13
+224,Solo GMM,2,4.26
+224,Solo LOF,2,4.26
+224,Ninguno,42,89.36
+311,Solo GMM,1,1.22
+311,Solo LOF,2,2.44
+311,Ninguno,79,96.34
+312,Solo GMM,12,4.07
+312,Solo LOF,6,2.03
+312,Ninguno,277,93.9
+313,Solo GMM,29,4.87
+313,Solo LOF,14,2.35
+313,Ninguno,553,92.79
+314,Ambos,3,0.36
+314,Solo GMM,87,10.55
+314,Solo LOF,15,1.82
+314,Ninguno,720,87.27
+321,Solo GMM,3,1.55
+321,Solo LOF,31,16.06
+321,Ninguno,159,82.38
+322,Solo LOF,3,23.08
+322,Ninguno,10,76.92
+323,Solo LOF,7,8.43
+323,Ninguno,76,91.57
+324,Solo GMM,3,3.12
+324,Solo LOF,6,6.25
+324,Ninguno,87,90.62
+411,Solo LOF,2,3.39
+411,Ninguno,57,96.61
+412,Solo GMM,6,3.03
+412,Solo LOF,11,5.56
+412,Ninguno,181,91.41
+413,Solo GMM,8,3.76
+413,Solo LOF,6,2.82
+413,Ninguno,199,93.43
+414,Ambos,1,0.83
+414,Solo GMM,6,5
+414,Solo LOF,3,2.5
+414,Ninguno,110,91.67
+421,Solo GMM,1,0.78
+421,Solo LOF,17,13.18
+421,Ninguno,111,86.05
+422,Solo LOF,13,13.68
+422,Ninguno,82,86.32
+423,Solo GMM,2,2.15
+423,Solo LOF,14,15.05
+423,Ninguno,77,82.8
+424,Solo LOF,11,15.28
+424,Ninguno,61,84.72
+511,Solo GMM,3,6.52
+511,Ninguno,43,93.48
+512,Ambos,1,0.79
+512,Solo GMM,4,3.17
+512,Solo LOF,9,7.14
+512,Ninguno,112,88.89
+513,Solo GMM,14,8.05
+513,Solo LOF,8,4.6
+513,Ninguno,152,87.36
+514,Solo GMM,14,12.07
+514,Solo LOF,3,2.59
+514,Ninguno,99,85.34
+521,Solo LOF,10,11.36
+521,Ninguno,78,88.64
+522,Ambos,1,0.42
+522,Solo GMM,1,0.42
+522,Solo LOF,40,16.74
+522,Ninguno,197,82.43
+523,Solo GMM,3,2.38
+523,Solo LOF,14,11.11
+523,Ninguno,109,86.51
+524,Solo LOF,5,5.38
+524,Ninguno,88,94.62
+611,Solo GMM,1,4.55
+611,Ninguno,21,95.45
+612,Solo GMM,9,5.14
+612,Solo LOF,2,1.14
+612,Ninguno,164,93.71
+613,Solo GMM,10,3.44
+613,Solo LOF,8,2.75
+613,Ninguno,273,93.81
+614,Solo GMM,11,5.56
+614,Solo LOF,4,2.02
+614,Ninguno,183,92.42
+621,Solo LOF,6,14.29
+621,Ninguno,36,85.71
+622,Solo GMM,1,1.25
+622,Solo LOF,9,11.25
+622,Ninguno,70,87.5
+623,Solo GMM,3,4.35
+623,Solo LOF,9,13.04
+623,Ninguno,57,82.61
+624,Solo GMM,2,4.17
+624,Solo LOF,3,6.25
+624,Ninguno,43,89.58
+711,Ambos,1,0.37
+711,Solo GMM,11,4.1
+711,Solo LOF,5,1.87
+711,Ninguno,251,93.66
+712,Solo GMM,29,4.49
+712,Solo LOF,6,0.93
+712,Ninguno,611,94.58
+713,Solo GMM,43,5.95
+713,Solo LOF,14,1.94
+713,Ninguno,666,92.12
+714,Solo GMM,27,6.94
+714,Solo LOF,4,1.03
+714,Ninguno,358,92.03
+721,Solo GMM,1,1.67
+721,Solo LOF,7,11.67
+721,Ninguno,52,86.67
+722,Ambos,1,1.69
+722,Solo LOF,6,10.17
+722,Ninguno,52,88.14
+723,Solo GMM,1,1.41
+723,Solo LOF,4,5.63
+723,Ninguno,66,92.96
+724,Solo GMM,2,2.82
+724,Solo LOF,5,7.04
+724,Ninguno,64,90.14
+811,Solo GMM,2,1.55
+811,Solo LOF,8,6.2
+811,Ninguno,119,92.25
+812,Solo GMM,1,0.62
+812,Solo LOF,13,8.02
+812,Ninguno,148,91.36
+813,Solo GMM,2,1.26
+813,Solo LOF,7,4.4
+813,Ninguno,150,94.34
+814,Solo LOF,4,5.88
+814,Ninguno,64,94.12
+821,Solo LOF,1,9.09
+821,Ninguno,10,90.91
+822,Solo GMM,1,0.93
+822,Solo LOF,9,8.41
+822,Ninguno,97,90.65
+823,Solo GMM,1,2.17
+823,Solo LOF,1,2.17
+823,Ninguno,44,95.65
+911,Solo GMM,1,1.41
+911,Solo LOF,2,2.82
+911,Ninguno,68,95.77
+912,Solo GMM,6,4.72
+912,Solo LOF,4,3.15
+912,Ninguno,117,92.13
+913,Solo GMM,3,3.61
+913,Solo LOF,1,1.2
+913,Ninguno,79,95.18
+914,Ambos,1,1.72
+914,Solo GMM,1,1.72
+914,Ninguno,56,96.55
+921,Solo GMM,1,1.67
+921,Solo LOF,5,8.33
+921,Ninguno,54,90
+922,Solo GMM,1,1.47
+922,Solo LOF,3,4.41
+922,Ninguno,64,94.12
+923,Solo GMM,1,0.93
+923,Solo LOF,10,9.35
+923,Ninguno,96,89.72

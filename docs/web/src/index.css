@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-sans antialiased transition-colors duration-200;
+    /* El fondo y el color de texto los controla App.tsx con dark: */
+  }
+
+  *:focus-visible {
+    @apply outline-2 outline-offset-2 outline-primary;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@layer components {
+  .container-page {
+    @apply max-w-6xl mx-auto px-6 lg:px-8;
+  }
+
+  .section-title {
+    @apply text-3xl md:text-4xl font-extrabold text-primary dark:text-blue-300
+           mb-8 inline-block border-b-4 border-accent pb-2;
+  }
+
+  .callout {
+    @apply bg-blue-50 dark:bg-slate-800 border-l-4 border-primary
+           p-6 rounded-r-lg my-6;
+  }
+
+  .callout--warning {
+    @apply bg-red-50 dark:bg-slate-800 border-l-4 border-accent;
+  }
+}

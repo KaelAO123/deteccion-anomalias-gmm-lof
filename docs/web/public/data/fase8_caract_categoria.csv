@@ -1,0 +1,5 @@
+categoria,n,pct,mediana_gasto,media_gasto,p25_gasto,p75_gasto,pct_urbano,mediana_factor
+Ambos,22,0.17,602.5,651.6,280.2,873.8,72.73,229.2
+Solo GMM,610,4.83,1825,2426.7,1215.8,2828,93.93,245.09
+Solo LOF,610,4.83,157.5,282.1,80,320,43.61,237.73
+Ninguno,11389,90.17,730,1004.1,370,1290,76.7,241.22
