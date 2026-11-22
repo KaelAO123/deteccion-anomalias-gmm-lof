@@ -13,7 +13,7 @@ export default function LofSensChart() {
   }));
 
   return (
-    <div className="bg-white rounded-xl shadow-sm p-6">
+    <div className="bg-white dark:bg-slate-800 rounded-xl shadow-sm p-6">
       <h3 className="font-bold text-primary mb-4">Sensibilidad de LOF a k</h3>
       <ResponsiveContainer width="100%" height={320}>
         <LineChart data={chartData}>

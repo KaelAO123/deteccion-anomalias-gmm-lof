@@ -52,7 +52,7 @@ export default function DeptoHeatmap() {
                   return (
                     <td
                       key={c}
-                      className="text-center py-2 font-mono text-xs"
+                      className="text-center py-2 font-mono text-xs dark:text-white"
                       style={{ backgroundColor: colorFor(pct), color: pct > maxPct * 0.6 ? 'white' : '#1A1A1A' }}
                     >
                       {pct.toFixed(2)}%

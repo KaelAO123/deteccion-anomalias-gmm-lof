@@ -129,7 +129,7 @@ npm run preview
 
 1. Sube el repo a GitHub.
 2. Settings → Pages → Source: `Deploy from a branch` → Branch: `main` → Folder: `/docs/web/dist` (o usa `gh-pages`).
-3. La URL será `https://[usuario].github.io/[repo]/`.
+3. La URL será `https://kaelao123.github.io/deteccion-anomalias-gmm-lof/`.
 
 **Netlify / Vercel:**
 
@@ -261,18 +261,19 @@ write_csv(pca_df_export, "output/tables/fase8_pca_scatter.csv")
 
 ## Secciones de la página
 
-| Sección | Contenido |
-|---|---|
-| **Hero** | Título, subtítulo, botones de navegación |
-| **Resumen** | Hallazgo principal: complementariedad GMM vs. LOF |
-| **Dataset** | 12.726 hogares, 60 variables, 4 horizontes + gráfico de ceros |
-| **Metodología** | Pipeline de 4 pasos con iconos SVG |
-| **Métodos** | GMM (gaussiana, EM) y LOF (reachability, LRD, LOF) con fórmulas KaTeX |
-| **GMM** | Modelo VEV 13 componentes, BIC, distribución de log-densidad |
-| **LOF** | k = 20, sensibilidad, distribución de LOF |
+
+| Sección         | Contenido                                                                                |
+| ------------------ | ------------------------------------------------------------------------------------------ |
+| **Hero**         | Título, subtítulo, botones de navegación                                              |
+| **Resumen**      | Hallazgo principal: complementariedad GMM vs. LOF                                        |
+| **Dataset**      | 12.726 hogares, 60 variables, 4 horizontes + gráfico de ceros                           |
+| **Metodología** | Pipeline de 4 pasos con iconos SVG                                                       |
+| **Métodos**     | GMM (gaussiana, EM) y LOF (reachability, LRD, LOF) con fórmulas KaTeX                   |
+| **GMM**          | Modelo VEV 13 componentes, BIC, distribución de log-densidad                            |
+| **LOF**          | k = 20, sensibilidad, distribución de LOF                                               |
 | **Comparación** | Matriz de confusión, Jaccard, κ, scatter PCA, efecto `log1p`, heatmap por departamento |
-| **Conclusiones** | 5 hallazgos numerados |
-| **Limitaciones** | 5 limitaciones metodológicas |
+| **Conclusiones** | 5 hallazgos numerados                                                                    |
+| **Limitaciones** | 5 limitaciones metodológicas                                                            |
 
 ---
 

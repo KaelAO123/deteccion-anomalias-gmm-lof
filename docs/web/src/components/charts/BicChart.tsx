@@ -12,8 +12,8 @@ export default function BicChart() {
   }));
 
   return (
-    <div className="bg-white rounded-xl shadow-sm p-6">
-      <h3 className="font-bold text-primary mb-4">Comparación BIC (G = 13)</h3>
+    <div className="bg-white dark:bg-slate-800 dark:text-white rounded-xl shadow-sm p-6">
+      <h3 className="font-bold text-primary dark:text-white mb-4">Comparación BIC (G = 13)</h3>
       <ResponsiveContainer width="100%" height={320}>
         <BarChart data={chartData}>
           <XAxis dataKey="modelo" />
@@ -26,7 +26,7 @@ export default function BicChart() {
           </Bar>
         </BarChart>
       </ResponsiveContainer>
-      <p className="text-xs text-gray-500 mt-2">Rojo: modelo seleccionado (VEV).</p>
+      <p className="text-xs text-gray-500 dark:text-white mt-2">Rojo: modelo seleccionado (VEV).</p>
     </div>
   );
 }

@@ -1,12 +1,18 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+import { fileURLToPath } from "node:url";
+
+const projectRoot = fileURLToPath(new URL(".", import.meta.url));
 
 export default defineConfig({
   plugins: [react()],
-  base: './',
+  base: "./",
   server: {
     watch: {
-      ignored: ['**/node_modules/**', '**/dist/**', '**/.git/**'],
+      ignored: ["**/node_modules/**", "**/dist/**", "**/.git/**"],
+    },
+    fs: {
+      allow: [projectRoot],
     },
   },
 });

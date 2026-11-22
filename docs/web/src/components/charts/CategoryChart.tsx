@@ -20,7 +20,7 @@ export default function CategoryChart() {
   }));
 
   return (
-    <div className="bg-white rounded-xl shadow-sm p-6">
+    <div className="bg-white dark:bg-slate-800 rounded-xl shadow-sm p-6">
       <h3 className="font-bold text-primary mb-4">Gasto mediano por categoría</h3>
       <ResponsiveContainer width="100%" height={320}>
         <BarChart data={chartData}>

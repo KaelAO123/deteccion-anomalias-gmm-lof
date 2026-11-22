@@ -11,8 +11,7 @@ export default function Footer() {
           <h4 className="font-bold text-white mb-3">Enlaces</h4>
           <ul className="space-y-1 text-sm">
             <li><a href="./informe.pdf" className="hover:text-white underline">Informe completo (PDF)</a></li>
-            <li><a href="https://github.com/[usuario]/[repo]" className="hover:text-white underline" target="_blank" rel="noopener noreferrer">Repositorio en GitHub</a></li>
-            <li><a href="./data/" className="hover:text-white underline">Datos procesados (CSV)</a></li>
+            <li><a href="https://kaelao123.github.io/deteccion-anomalias-gmm-lof/" className="hover:text-white underline" target="_blank" rel="noopener noreferrer">Repositorio en GitHub</a></li>
           </ul>
         </div>
         <div>

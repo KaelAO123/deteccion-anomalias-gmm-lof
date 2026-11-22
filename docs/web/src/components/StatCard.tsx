@@ -12,14 +12,14 @@ export default function StatCard({ value, label, accent = "primary" }: Props) {
   return (
     <motion.div
       whileHover={{ y: -4 }}
-      className="bg-white rounded-xl shadow-sm border border-gray-100 p-6 text-center"
+      className="bg-white dark:bg-slate-800 rounded-xl shadow-sm border border-gray-100 p-6 text-center"
     >
       <div
         className={`text-3xl font-extrabold mb-1 ${accent === "accent" ? "text-accent" : "text-primary"}`}
       >
         {typeof value === "number" ? <AnimatedNumber value={value} /> : value}
       </div>
-      <div className="text-xs uppercase tracking-wider text-gray-500">
+      <div className="text-xs uppercase tracking-wider text-gray-500 dark:text-white">
         {label}
       </div>
     </motion.div>

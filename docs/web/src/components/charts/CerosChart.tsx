@@ -15,8 +15,8 @@ export default function CerosChart() {
     }));
 
   return (
-    <div className="bg-white rounded-xl shadow-sm p-6">
-      <h3 className="font-bold text-primary mb-4">Proporción de ceros por variable</h3>
+    <div className="bg-white dark:bg-slate-800 rounded-xl shadow-sm p-6">
+      <h3 className="font-bold text-primary dark:text-white mb-4">Proporción de ceros por variable</h3>
       <ResponsiveContainer width="100%" height={400}>
         <BarChart data={chartData} layout="vertical" margin={{ left: 30, right: 20 }}>
           <XAxis type="number" domain={[0, 100]} tickFormatter={(v) => `${v}%`} />
