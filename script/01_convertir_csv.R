@@ -7,8 +7,8 @@ install.packages("haven")
 library(haven)
 
 # Rutas de los archivos
-archivo_entrada <- "data/EH2025_Gastos_No_Alimentarios.sav"
-archivo_salida <- "data/EH2025_Gastos_No_Alimentarios.csv"
+archivo_entrada <- "data/raw/EH2025_Gastos_No_Alimentarios.sav"
+archivo_salida <- "data/raw/EH2025_Gastos_No_Alimentarios.csv"
 
 # 1. Leer archivo SPSS
 datos <- read_sav(archivo_entrada)
