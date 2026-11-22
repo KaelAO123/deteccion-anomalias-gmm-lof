@@ -1,0 +1,94 @@
+# ============================================================
+# .gitignore — Detección de anomalías GMM/LOF · EH2025 Bolivia
+# ============================================================
+
+# ---------- Datos crudos (pesados, no versionar) ----------
+data/raw/*.sav
+data/raw/*.csv
+
+# Los datos procesados (.rds) son reproducibles con el pipeline,
+# pero si quieres versionarlos (recomendado para no reejecutar R),
+# deja las siguientes líneas comentadas:
+data/processed/*.rds
+data/processed/*.csv
+
+# ---------- Salidas generadas (reproducibles) ----------
+# Si quieres versionar figuras y tablas (útil para el frontend),
+# deja estas líneas comentadas:
+output/figures/*.png
+output/tables/*.csv
+output/models/*.rds
+
+# ---------- Frontend (React + Vite) ----------
+docs/web/node_modules/
+docs/web/dist/
+docs/web/.vite/
+docs/web/.cache/
+docs/web/*.log
+docs/web/npm-debug.log*
+docs/web/yarn-debug.log*
+docs/web/yarn-error.log*
+docs/web/pnpm-debug.log*
+
+# Dependencias de otros gestores (por si acaso)
+node_modules/
+.pnpm-store/
+
+# ---------- R ----------
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+*.Rproj.user
+
+# renv (si lo usas)
+renv/library/
+renv/staging/
+renv/local/
+renv/cellar/
+renv/lock/
+
+# ---------- Documentos generados ----------
+docs/*.pdf
+docs/*.html
+docs/*.docx
+docs/*.tex
+docs/informe_final_files/
+docs/.Rproj.user/
+*.knit.md
+*_files/
+
+# ---------- Sistema operativo ----------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ---------- Editores ----------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# ---------- Entornos virtuales / Python (por si acaso) ----------
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# ---------- Logs y temporales ----------
+*.log
+*.tmp
+*.temp
+tmp/
+temp/
+.cache/
